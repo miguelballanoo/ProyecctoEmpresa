@@ -1,10 +1,10 @@
-package com.mballano.proyectoempresa.ui
+package com.mballano.proyectoempresa.data.repository
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-object ServiceGenerator {
+object RetrofitManager {
     private val client = OkHttpClient.Builder().build()
 
     private val retrofit = Retrofit.Builder()

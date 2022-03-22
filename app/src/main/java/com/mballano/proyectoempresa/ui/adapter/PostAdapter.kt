@@ -6,11 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import androidx.room.Room
 import com.mballano.proyectoempresa.R
-import com.mballano.proyectoempresa.databinding.CardPostBinding
-import com.mballano.proyectoempresa.ui.data.PostEntity
-import kotlin.coroutines.coroutineContext
 
 
 class PostAdapter(val postModel: MutableList<PostModel>,

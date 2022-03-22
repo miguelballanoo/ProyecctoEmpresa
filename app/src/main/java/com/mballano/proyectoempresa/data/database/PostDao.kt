@@ -1,4 +1,4 @@
-package com.mballano.proyectoempresa.ui.data
+package com.mballano.proyectoempresa.data.database
 
 import androidx.room.Dao
 import androidx.room.Insert

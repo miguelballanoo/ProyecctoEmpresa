@@ -1,4 +1,4 @@
-package com.mballano.proyectoempresa.ui
+package com.mballano.proyectoempresa.ui.listeners
 
 interface OnPostClickListener{
     fun onClick()

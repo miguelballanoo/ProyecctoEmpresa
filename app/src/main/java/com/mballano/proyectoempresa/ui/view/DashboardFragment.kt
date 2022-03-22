@@ -1,4 +1,4 @@
-package com.mballano.proyectoempresa.ui.dashboard
+package com.mballano.proyectoempresa.ui.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.mballano.proyectoempresa.R
 import com.mballano.proyectoempresa.databinding.FragmentDashboardBinding
+import com.mballano.proyectoempresa.ui.viewmodel.DashboardViewModel
 
 class DashboardFragment : Fragment() {
 
